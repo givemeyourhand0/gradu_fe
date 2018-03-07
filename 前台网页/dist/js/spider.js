@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    drawHistory()
+    //drawHistory()
     drawnewsType();
     drawnewsSource() 
 });
@@ -114,7 +114,7 @@ function drawnewsType() {
  
         option = {
             title: {
-                text: '新闻种类',
+                text: '标题关键词',
                 subtext: '采集大量各类新闻',
                 left: 'center',
                 z:9
@@ -208,15 +208,15 @@ function drawnewsSource() {
         var myChart = echarts.init(dom);
 
 
-        var dataAxis = ['凤凰网','人民网','搜狐','网易新闻','环球网','新华网','大公报','中新网','新浪新闻','星岛环球','央广网']
+        var dataAxis = ['中国政府网','广东省人民政府门户网站','山西省人民政府门户网站','网易新闻','环球网','新华网','大公报','中新网','新浪新闻','星岛环球','央广网']
         var data = [75304, 70403, 52993, 46111, 43876, 33046, 27120, 22603, 13021, 10869, 10329]
 
 
  
         option = {
             title: {
-                text: '新闻来源',
-                subtext: '涉猎各大主流网站',
+                text: '数据来源',
+                subtext: '涉猎各大政务网站',
                 left: 'center',
                 z:9
             },

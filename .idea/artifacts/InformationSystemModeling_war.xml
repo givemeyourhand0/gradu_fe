@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="InformationSystemModeling:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="InformationSystemModeling-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="InformationSystemModeling:war exploded" />
+    </root>
+  </artifact>
+</component>
